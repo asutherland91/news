@@ -1,70 +1,31 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Daily Cat News
+## Table of Contents
+  - [Introduction](#Introduction)
+  - [Technologies](#Technologies)
+  - [Contributors](#Contributors)
+  - [Wins](#Wins)
+  - [Challenges & Improvements](#Challenges-&-Improvements)
+  - [Set Up](#Set-Up)
+  - [Sources](#Sources)
+## Introduction
+Welcome to Daily Cat News an application designed to Keep you up to date with what is happening in the cat world everyday. This application provides news articles with everything to do with cats keeping the user purrfectly informed, there is a search function that allows users to better narrow their scope of what they are looking for.
+## Technologies
+  - React
+  - React Router
+  - CSS & JSX
+  - Webpack module bundler
+  - GitHub Projects
+## Contributors
+  - Adriane Sutherland - [GitHub](https://github.com/asutherland91) [LinkedIn](https://www.linkedin.com/in/adrianesutherland/)
+## Wins
+- Successfully incorporated and leveraged data from an unfamiliar API to enrich the application's capabilities.
+- Worked quickly and efficently in order to produce a well-rounded and clean application.
+## Challenges & Improvements
+- I dealt with a very peculiar bug, where my create react app did not initialize properly, Which resulted in my dependencies not getting installed, and about 2 hours into this challenge I was having some issues that I didn't know how to reconcile.  When I finally checked my dependencies I noticed that there was nothing there, I tried to npm install but nothing happened, I ended up having to  move everything into a new app, I lost a lot of time to this unfortunately. 
+  - Possible future improvements and features:
+    - I unfortunately was unable to get around to Cypress testing, so I would very much like to go through and do that.
+    - As of right now I only have the ability to look at the first 100 results from the news api, I would like to implement the ability to look at more pages.
+## Sources
+  - [MDN](http://developer.mozilla.org/en-US/)
+  - [W3Schools](https://www.w3schools.com/)
+  - [React Docs](https://reactjs.org/docs/getting-started.html)

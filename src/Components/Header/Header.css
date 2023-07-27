@@ -1,0 +1,36 @@
+.logo {
+  width: 6em;
+  margin: 1em 4em 1em 1em;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+/* For mobile devices */
+@media (max-width: 767px) {
+  .logo {
+    width: 4em; /* Adjust to your desired width for mobile */
+    margin: 1em 2em 1em 1em; /* Adjust margins as needed for mobile */
+  }
+
+  header {
+    justify-content: center; /* Center the items for mobile */
+    flex-direction: column; /* Arrange items vertically for mobile */
+    align-items: center; /* Center the items horizontally for mobile */
+  }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 5em; /* Adjust to your desired width for tablets */
+    margin: 1em 3em 1em 1em; /* Adjust margins as needed for tablets */
+  }
+
+  header {
+    justify-content: flex-end; /* Align items to the right for tablets */
+    flex-direction: row; /* Arrange items horizontally for tablets */
+  }
+}
