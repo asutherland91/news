@@ -21,6 +21,7 @@ Welcome to Daily Cat News an application designed to Keep you up to date with wh
 - Wireframing         
 ![Alt text](<src/Assets/image (1).png>)
 - Component Heirarchy 
+
 ![Alt text](src/Assets/ima.png)
 
 ## Contributors
