@@ -5,7 +5,7 @@
 html {
   background-color: #fff1f8;
   opacity: 1;
-  background-image:  linear-gradient(#ffffff 4px, transparent 4px), linear-gradient(to right, #ffffff 4px, #fff1f8 4px);
+  background-image:  linear-gradient(#ffffff 4px, transparent 4px), linear-gradient(to right, #ffffff 4px, #fdf0f7 4px);
   background-size: 80px 80px;
   margin: none;
 }

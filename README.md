@@ -20,7 +20,8 @@ Welcome to Daily Cat News an application designed to Keep you up to date with wh
 - [Project Board](https://github.com/users/asutherland91/projects/2/views/1)
 - Wireframing         
 ![Alt text](<src/Assets/image (1).png>)
-- Component Heirarchy ![Alt text](src/Assets/ima.png)
+- Component Heirarchy 
+![Alt text](src/Assets/ima.png)
 
 ## Contributors
   - Adriane Sutherland - [GitHub](https://github.com/asutherland91) [LinkedIn](https://www.linkedin.com/in/adrianesutherland/)

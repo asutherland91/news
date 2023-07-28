@@ -1,5 +1,5 @@
 .details-wrapper {
-  background-color: white;
+  background-color: #fffafa;
   display: flex;
   justify-content: center;
   margin: 1em;
@@ -31,7 +31,7 @@
 
 .link {
   text-decoration: none;
-  color: rgb(251, 157, 173)
+  color: rgb(237, 114, 135)
 }
 
 .detail {
