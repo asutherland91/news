@@ -7,10 +7,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #ffffff;
-  height: 14em;
-  width: 40em;
-  margin: 1em;
+  background-color: #fffafa;
+  height: 16em;
+  width: 36em;
+  margin: 1.2em;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(154, 153, 153);
   color: #686767;
@@ -21,11 +21,12 @@
   height: 10em;
   margin: 1em 2em;
   border-radius: 3px;
+  box-shadow: 3px 3px 3px rgb(255, 203, 211);
 }
 
 .title {
   font-size: 1.1em;
-  margin: 0 2em 2em 2em;
+  margin: 0 2em 1em 2em;
   text-align: center;
 }
 
@@ -47,25 +48,25 @@
 }
 
 /* For mobile */
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .card {
-    width: 94%; 
-    height: auto;
+    width: 20em; 
+    height: 10em;
   }
   
   .image {
-    width: 25%;
-    height: auto; 
-    margin: 1em;
+    width: 6em;
+    height: 5.5em;
+    margin: .5em
   }
 
   .title {
-    font-size: 1em;
-    margin: 1em;
+    font-size: .75em;
+    margin: .5em;
   }
 
   .description, .date {
-    font-size: .8em;
+    font-size: .7em;
     margin: .25em;
   }
 
@@ -75,24 +76,26 @@
 }
 
 /* For tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 750px) and (max-width: 950px) {
   .card {
-    width: 50%;
+    width: 21em;
+    height: 10.6em;
   }
 
   .image {
-    width: 12em;
-    height: 8em;
+    width: 6em;
+    height: 5.5em;
+    margin: .5em
   }
 
   .title {
-    font-size: 1em;
-    margin: 0 1em 1em 1em;
+    font-size: .75em;
+    margin: .5em;
   }
 
   .description, .date {
-    font-size: .8em;
-    margin: 0 .25em;
+    font-size: .7em;
+    margin: .25em;
   }
 
   .date{

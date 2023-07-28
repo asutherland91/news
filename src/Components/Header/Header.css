@@ -9,28 +9,28 @@ header {
   flex-direction: row;
 }
 /* For mobile devices */
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .logo {
-    width: 4em; /* Adjust to your desired width for mobile */
-    margin: 1em 2em 1em 1em; /* Adjust margins as needed for mobile */
+    width: 4em;
+    margin: 1em 2em 1em 1em;
   }
 
   header {
-    justify-content: center; /* Center the items for mobile */
-    flex-direction: column; /* Arrange items vertically for mobile */
-    align-items: center; /* Center the items horizontally for mobile */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 /* For tablets */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 750px) and (max-width: 950px) {
   .logo {
-    width: 5em; /* Adjust to your desired width for tablets */
-    margin: 1em 3em 1em 1em; /* Adjust margins as needed for tablets */
+    width: 5em;
+    margin: 1em 3em 1em 1em;
   }
 
   header {
-    justify-content: flex-end; /* Align items to the right for tablets */
-    flex-direction: row; /* Arrange items horizontally for tablets */
+    justify-content: flex-end;
+    flex-direction: row;
   }
 }

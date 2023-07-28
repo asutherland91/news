@@ -24,6 +24,11 @@ export const DetailedPage = ({ news }) => {
           </p>
           <p className="detail">{article.description}</p>
           <p className="detail">{article.content}</p>
+          <p className="detail">
+          <a href={article.url} className="link" target="_blank" rel="noopener noreferrer">
+            Click here to visit the original article
+          </a>
+        </p>
         </div>
         <img src={article.urlToImage} alt="news" className="detail-img" />
       </div>

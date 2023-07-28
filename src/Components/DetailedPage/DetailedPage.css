@@ -29,12 +29,17 @@
   font-size: 2em;
 }
 
-.detail{
+.link {
+  text-decoration: none;
+  color: rgb(251, 157, 173)
+}
+
+.detail {
   font-size: 1.25em;
 }
 
 /* For mobile */
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .details-wrapper {
     height: auto;
   }
@@ -62,7 +67,7 @@
 }
 
 /* For tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 750px) and (max-width: 950px) {
   .details-wrapper {
     height: 40vh;
   }
